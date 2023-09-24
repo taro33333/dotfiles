@@ -16,6 +16,7 @@ github.com/mdempsky/gocode@latest
 google.golang.org/protobuf/cmd/protoc-gen-go@latest
 google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc@latest
+github.com/k1LoW/tbls@latest
 EOF
 )
 
