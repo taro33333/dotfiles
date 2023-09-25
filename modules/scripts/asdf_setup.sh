@@ -16,6 +16,8 @@ kubectl
 kind
 awscli
 jq
+lazygit
+task
 EOF
 )
 
@@ -26,6 +28,8 @@ asdf plugin-add kubectl https://github.com/asdf-community/asdf-kubectl.git
 asdf plugin-add kind https://github.com/reegnz/asdf-kind.git
 asdf plugin add awscli
 asdf plugin-add jq https://github.com/lsanwick/asdf-jq.git
+asdf plugin add lazygit
+asdf plugin-add task https://github.com/particledecay/asdf-task.git
 
 echo "$PLUGS" | xargs -L 1 -I{} asdf install {} latest
 echo "$PLUGS" | xargs -L 1 -I{} asdf global {} latest
