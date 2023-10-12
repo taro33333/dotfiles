@@ -18,6 +18,7 @@ awscli
 jq
 lazygit
 task
+helm
 EOF
 )
 
@@ -30,6 +31,7 @@ asdf plugin add awscli
 asdf plugin-add jq https://github.com/lsanwick/asdf-jq.git
 asdf plugin add lazygit
 asdf plugin-add task https://github.com/particledecay/asdf-task.git
+asdf plugin-add helm https://github.com/Antiarchitect/asdf-helm.git
 
 echo "$PLUGS" | xargs -L 1 -I{} asdf install {} latest
 echo "$PLUGS" | xargs -L 1 -I{} asdf global {} latest
