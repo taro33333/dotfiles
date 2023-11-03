@@ -19,6 +19,8 @@ github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc@latest
 github.com/k1LoW/tbls@latest
 github.com/k0kubun/sqldef/cmd/mysqldef@latest
 github.com/bufbuild/buf/cmd/buf@latest
+github.com/spf13/cobra-cli@latest
+github.com/spf13/cobra@latest
 EOF
 )
 
