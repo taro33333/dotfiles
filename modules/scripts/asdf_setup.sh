@@ -1,10 +1,12 @@
-#!/bin/bash
+#!/bin/zsh
 
 # asdfがなければインストール
 if [ ! -e "$HOME/.asdf" ]; then
   echo "installing asdf..."
-  git clone https://github.com/asdf-vm/asdf.git "$HOME/.asdf" --branch v0.12.0
+  git clone https://github.com/asdf-vm/asdf.git "$HOME/.asdf" --branch v0.14.0
+  echo '. $HOME/.asdf/asdf.sh' >> ~/.zshrc
   exec $SHELL -l
+  source ~/.zshrc
 fi
 
 PLUGS=$(
