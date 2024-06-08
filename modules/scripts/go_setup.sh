@@ -22,6 +22,8 @@ github.com/fullstorydev/grpcurl/cmd/grpcurl@latest
 connectrpc.com/connect/cmd/protoc-gen-connect-go@latest
 github.com/spf13/cobra-cli@latest
 github.com/spf13/cobra@latest
+github.com/quasilyte/go-ruleguard/cmd/ruleguard@latest
+github.com/quasilyte/go-ruleguard/dsl@latest
 EOF
 )
 
