@@ -25,6 +25,7 @@ github.com/spf13/cobra@latest
 github.com/quasilyte/go-ruleguard/cmd/ruleguard@latest
 github.com/quasilyte/go-ruleguard/dsl@latest
 github.com/golangci/golangci-lint/cmd/golangci-lint@latest
+github.com/gostaticanalysis/skeleton/v2@latest
 EOF
 )
 
