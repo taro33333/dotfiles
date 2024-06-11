@@ -28,6 +28,7 @@ github.com/golangci/golangci-lint/cmd/golangci-lint@latest
 github.com/gostaticanalysis/skeleton/v2@latest
 github.com/replu/slicenilcmp/cmd/slicenilcmp@latest
 github.com/gostaticanalysis/dupimport/cmd/dupimport@latest
+github.com/99designs/gqlgen@latest
 EOF
 )
 
