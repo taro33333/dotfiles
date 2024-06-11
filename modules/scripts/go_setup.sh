@@ -29,6 +29,8 @@ github.com/gostaticanalysis/skeleton/v2@latest
 github.com/replu/slicenilcmp/cmd/slicenilcmp@latest
 github.com/gostaticanalysis/dupimport/cmd/dupimport@latest
 github.com/99designs/gqlgen@latest
+github.com/volatiletech/sqlboiler/v4@latest
+github.com/volatiletech/sqlboiler/v4/drivers/sqlboiler-sqlite3@latest
 EOF
 )
 
