@@ -10,7 +10,7 @@ if ! (type "brew" >/dev/null 2>&1); then
   fi
 fi
 
-PACKAGES="bash zsh git gpg openssl curl hashicorp/tap/vault ripgrep opa trivy"
+PACKAGES="bash zsh git gpg openssl curl hashicorp/tap/vault ripgrep opa trivy hadolint"
 GUI_APPS="warp raycast"
 
 # パッケージマネージャーのセットアップ
