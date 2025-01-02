@@ -11,7 +11,7 @@ if ! (type "brew" >/dev/null 2>&1); then
 fi
 
 PACKAGES="bash zsh git gpg openssl curl hashicorp/tap/vault ripgrep opa trivy hadolint hashicorp/tap/sentinel"
-GUI_APPS="warp raycast google-chrome zoom slack"
+GUI_APPS="warp raycast google-chrome zoom slack visual-studio-code"
 
 # パッケージマネージャーのセットアップ
 echo "installing homebrew..."
