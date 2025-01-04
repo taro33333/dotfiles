@@ -32,6 +32,7 @@ github.com/99designs/gqlgen@latest
 github.com/volatiletech/sqlboiler/v4@latest
 github.com/volatiletech/sqlboiler/v4/drivers/sqlboiler-sqlite3@latest
 github.com/go-delve/delve/cmd/dlv@latest
+github.com/ogen-go/ogen/cmd/ogen@latest
 EOF
 )
 
