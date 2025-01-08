@@ -33,6 +33,7 @@ github.com/volatiletech/sqlboiler/v4@latest
 github.com/volatiletech/sqlboiler/v4/drivers/sqlboiler-sqlite3@latest
 github.com/go-delve/delve/cmd/dlv@latest
 github.com/ogen-go/ogen/cmd/ogen@latest
+github.com/golang-migrate/migrate/v4/cmd/migrate@latest
 EOF
 )
 
