@@ -1,0 +1,185 @@
+{
+	"single import": {
+		"prefix": "im",
+		"body": [
+			"import \"${1:package}\""
+		],
+		"description": "Single import statement"
+	},
+	"multiple imports": {
+		"prefix": "ims",
+		"body": [
+			"import (",
+			"\t\"${1:package}\"",
+			")"
+		],
+		"description": "Multiple imports statement"
+	},
+	"single constant": {
+		"prefix": "co",
+		"body": [
+			"const ${1:name} = ${2:value}"
+		],
+		"description": "Single constant declaration"
+	},
+	"multiple constants": {
+		"prefix": "cos",
+		"body": [
+			"const (",
+			"\t${1:name} = ${2:value}",
+			")"
+		],
+		"description": "Multiple constants declaration"
+	},
+	"type function declaration": {
+		"prefix": "tyf",
+		"body": [
+			"type ${1:name} func($3) $4"
+		],
+		"description": "Type function declaration"
+	},
+	"type interface declaration": {
+		"prefix": "tyi",
+		"body": [
+			"type ${1:name} interface {",
+			"\t$0",
+			"}"
+		],
+		"description": "Type interface declaration"
+	},
+	"type struct declaration": {
+		"prefix": "tys",
+		"body": [
+			"type ${1:name} struct {",
+			"\t$0",
+			"}"
+		],
+		"description": "Type struct declaration"
+	},
+	"package main and main function": {
+		"prefix": "pkgm",
+		"body": [
+			"package main",
+			"",
+			"func main() {",
+			"\t$0",
+			"}"
+		],
+		"description": "Package main with main function"
+	},
+	"function declaration": {
+		"prefix": "func",
+		"body": [
+			"func $1($2) $3 {",
+			"\t$0",
+			"}"
+		],
+		"description": "Function declaration"
+	},
+	"single variable": {
+		"prefix": "var",
+		"body": [
+			"var ${1:name} ${2:type}"
+		],
+		"description": "Single variable declaration"
+	},
+	"multiple variables": {
+		"prefix": "vars",
+		"body": [
+			"var (",
+			"\t${1:name} ${2:type}",
+			")"
+		],
+		"description": "Multiple variables declaration"
+	},
+	"switch statement": {
+		"prefix": "switch",
+		"body": [
+			"switch ${1:expression} {",
+			"case ${2:condition}:",
+			"\t$0",
+			"}"
+		],
+		"description": "Switch statement"
+	},
+	"for statement": {
+		"prefix": "for",
+		"body": [
+			"for ${1:i} := ${2:0}; $1 < ${3:count}; $1${4:++} {",
+			"\t$0",
+			"}"
+		],
+		"description": "For loop statement"
+	},
+	"for range statement": {
+		"prefix": "forr",
+		"body": [
+			"for ${1:_, }${2:v} := range ${3:v} {",
+			"\t$0",
+			"}"
+		],
+		"description": "For range loop statement"
+	},
+	"if err != nil": {
+		"prefix": "iferr",
+		"body": [
+			"if err != nil {",
+			"\t${1:return ${2:nil, }${3:err}}",
+			"}"
+		],
+		"description": "Check if err is not nil"
+	},
+	"fmt.Println": {
+		"prefix": "fp",
+		"body": [
+			"fmt.Println(\"$1\")"
+		],
+		"description": "fmt.Println statement"
+	},
+	"fmt.Printf": {
+		"prefix": "ff",
+		"body": [
+			"fmt.Printf(\"$1\", ${2:var})"
+		],
+		"description": "fmt.Printf statement"
+	},
+	"log.Printf": {
+		"prefix": "lf",
+		"body": [
+			"log.Printf(\"$1\", ${2:var})"
+		],
+		"description": "log.Printf statement"
+	},
+	"goroutine anonymous function": {
+		"prefix": "go",
+		"body": [
+			"go func($1) {",
+			"\t$0",
+			"}($2)"
+		],
+		"description": "Goroutine anonymous function"
+	},
+	"goroutine function": {
+		"prefix": "gf",
+		"body": [
+			"go ${1:func}($0)"
+		],
+		"description": "Goroutine function call"
+	},
+	"defer statement": {
+		"prefix": "df",
+		"body": [
+			"defer ${1:func}($0)"
+		],
+		"description": "Defer statement"
+	},
+	"test function": {
+		"prefix": "tf",
+		"body": [
+			"func Test$1(t *testing.T) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Test function declaration"
+	}
+}
