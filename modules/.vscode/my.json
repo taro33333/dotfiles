@@ -1,0 +1,156 @@
+{
+    "files.autoGuessEncoding": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.mouseWheelZoom": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onWindowChange",
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": true,
+    "breadcrumbs.enabled": true,
+    "extensions.autoUpdate": false,
+    "files.eol": "\n",
+    "files.encoding": "utf8",
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.minimap.showSlider": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {
+        "souirce.fixAll.eslint": "explicit"
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+    },
+    "github.copilot.chat.localeOverride": "en",
+    "yaml.format.enable": true,
+    "sftp.downloadWhenOpenInRemoteExplorer": true,
+    "sftp.debug": true,
+    "sftp.printDebugLog": true,
+    "workbench.startupEditor": "none",
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "editor.largeFileOptimizations": false,
+    "explorer.confirmDelete": false,
+    // "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "typescript.format.enable": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": -1,
+    "gopls": {
+        "ui.diagnostic.staticcheck": true,
+        "ui.completion.usePlaceholders": true,
+        // "build.experimentalWorkspaceModule": true,
+        "analyses": {
+            "shadow": true
+        }
+    },
+    "go.vetOnSave": "workspace",
+    "go.formatTool": "gofumpt",
+    "go.autocompleteUnimportedPackages": true,
+    "go.installDependenciesWhenBuilding": false,
+    "go.toolsManagement.autoUpdate": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.generateTestsFlags": [
+        "--template=testify",
+        "-exported"
+    ],
+    "go.coverOnSingleTestFile": true,
+    "go.coverOnSingleTest": true,
+    "go.coverShowCounts": true,
+    "go.editorContextMenuCommands": {
+        "removeTags": true,
+        "fillStruct": true,
+        "testFile": true,
+        "testPackage": true,
+        "generateTestForFile": true,
+        "benchmarkAtCursor": true
+    },
+    "go.enableCodeLens": {},
+    "go.testExplorer.alwaysRunBenchmarks": true,
+    "go.testExplorer.packageDisplayMode": "nested",
+    "go.lintTool": "golangci-lint", // staticcheck
+    "go.lintFlags": [
+        "--config=~/.golangci.yml",
+        "--fast"
+        // "-f stylish"
+    ],
+    "go.lintOnSave": "file",
+    // "go.lintOnSave": "workspace",
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.defaultFormatter": "golang.go",
+        "editor.tabSize": 8
+    },
+    "workbench.editor.splitingrouplayout": "vertical",
+    "redhat.telemetry.enabled": true,
+    "[python]": {
+        "editor.formatontype": true
+    },
+    // // vim
+    // "vim.highlightedyank.enable": true,
+    // "vim.hlsearch": true,
+    // "vim.smartRelativeLine": true,
+    // "vim.useSystemClipboard": true,
+    // "vim.surround": true,
+    // "vim.easymotion": true,
+    // "vim.visualstar": true,
+    // "vim.normalModeKeyBindingsNonRecursive": [
+    //   {
+    //     "before": ["L"],
+    //     "after": ["$"]
+    //   },
+    //   {
+    //     "before": ["H"],
+    //     "after": ["^"]
+    //   }
+    // ],
+    // "vim.insertModeKeyBindingsNonRecursive": [
+    //   {
+    //     "before": ["j", "j"],
+    //     "after": ["<Esc>"]
+    //   }
+    // ],
+    "editor.formatOnSave": true,
+    "protoc": {
+        "clang-format.language.proto.style": "google",
+        "protoc": {
+            "options": [
+                "--proto_path=proto"
+            ]
+        }
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+    "github.copilot.chat.languageContext.typescript.enabled": true,
+    "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "claudeCodeChat.thinking.intensity": "ultrathink",
+    "docker.extension.enableComposeLanguageServer": false,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "geminicodeassist.displayInlineContextHint": false,
+    "claudeCode.preferredLocation": "panel",
+    "workbench.secondarySideBar.defaultVisibility": "hidden"
+}
